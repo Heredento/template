@@ -1,0 +1,21 @@
+- python3 -m django startproject webTemplate
+- python3 manage.py runserver
+
+
+>>> urls.py
+
+    #formatoLargo
+    #path('', TemplateView.as_view(template_name="jinjaT2.html"), name='index'),
+
+    #formato corto
+    #path('dirección', views.nombreFnViews, <opcional> name="nombreHtmlEnViews")
+
+    ### No olvidar las "," luego de un urls
+
+
+>>> views.py
+    # Crear la vista para las urls
+
+    #def login(request):
+    #template = loader.get_template('login.html')
+    #return HttpResponse(template.render({}, request))

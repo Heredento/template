@@ -1,0 +1,8 @@
+# Todo lo que el desarrollador necesita como requisitos de producción
+# Correr comando para instalar paquetes pip:
+# Estar ubicado en la carpeta principal: django-project 
+#   - Windows:  pip install -r .\requisitos\dev.txt
+#   - Linux:    pip install -r /requisitos/dev.txt
+
+
+- prod.txt

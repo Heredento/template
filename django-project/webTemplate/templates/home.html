@@ -1,0 +1,44 @@
+
+{% block title %} Homepage! {% endblock %}
+{% include 'navbar.html' %}
+
+
+
+
+
+<select name="select">
+    <option value="choose">Elige una opción</option>
+    <option value="color">Color</option>
+    <option value="tiempo">Hora</option>
+    <option value="fecha-local">Tiempo local</option>
+    <option value="fecha" selected>Fecha</option>
+    <option value="semana">Mes</option>
+    <option value="mes">Mes</option>
+  </select>
+
+
+{#    <button type="submit" value={{excel_path}} onclick="location.href='{% url 'downloadexcel' %}'" name='mybtn2'>Download Excel file</button> #}
+
+{% block boton %}
+<input type="submit" onclick="/contact">
+
+<input type="text" name="ojo" disabled>
+
+{% endblock%}
+
+
+
+
+
+<input type="reset">
+
+
+
+<input type="color">
+<input type="datetime-local">
+<input type="date">
+
+<input type="month">
+<input type="time">
+<input type="week">
+
